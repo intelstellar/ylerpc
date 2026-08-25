@@ -1,0 +1,58 @@
+{
+  "$schema": "https://schemas.premid.app/metadata/1.16",
+  "apiVersion": 1,
+  "author": {
+    "name": "Koishi",
+    "id": "681790377329426442"
+  },
+  "service": "Yle",
+  "description": {
+    "en": "Yle is Finland's national public broadcasting company, offering news on yle.fi and TV shows, movies, live streams and podcasts on Yle Areena.",
+    "fi": "Yle on Suomen kansallinen yleisradioyhtiö, joka tarjoaa uutisia yle.fi-sivustolla sekä TV-ohjelmia, elokuvia, suoria lähetyksiä ja podcasteja Yle Areenassa."
+  },
+  "url": [
+    "yle.fi",
+    "www.yle.fi",
+    "areena.yle.fi"
+  ],
+  "regExp": "^https?[:][/][/]([a-z0-9-]+[.])*yle[.]fi[/]",
+  "version": "1.0.0",
+  "logo": "https://r2.e-z.host/e0431dc3-12da-4bbd-8491-f82d2b71ae13/hebhnyhdvtmorp4.png",
+  "thumbnail": "https://r2.e-z.host/e0431dc3-12da-4bbd-8491-f82d2b71ae13/hebhnyhdvtmorp4.png",
+  "color": "#00B4C8",
+  "category": "videos",
+  "tags": [
+    "yle",
+    "areena",
+    "finland",
+    "tv",
+    "news",
+    "podcast"
+  ],
+  "settings": [
+    {
+      "id": "privacy",
+      "title": "Privacy Mode",
+      "icon": "fad fa-user-secret",
+      "value": false
+    },
+    {
+      "id": "timestamps",
+      "title": "Show Timestamps",
+      "icon": "fad fa-stopwatch",
+      "value": true
+    },
+    {
+      "id": "buttons",
+      "title": "Show Buttons",
+      "icon": "fad fa-compress-arrows-alt",
+      "value": true
+    },
+    {
+      "id": "cover",
+      "title": "Show Cover Art",
+      "icon": "fad fa-images",
+      "value": true
+    }
+  ]
+}
